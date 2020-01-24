@@ -1,0 +1,104 @@
+<!-----------------------------------------------------
+-Project: Front-End Developppement Ajax/Jquery/.Json  -   
+-@Date: 23 janvier 2020                               -
+-@Authors: Youness & Dale                             -             
+------------------------------------------------------>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Project Ajax</title>
+    <!-- link library Font-Awsome pour mes boutons next et prev -->
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/slider.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Top 5 de mes ex</h1>
+    </header>
+    <div class="container">
+      <!-- slider/Caroussel/Banner -->
+      <div id="slider">
+        <ul class="slides">
+          <li class="slide">
+            <img id="1" src="./assets/LaRolls.jpg" />
+          </li>
+          <li class="slide">
+            <img id="2" src="./assets/UneFemme.jpg" />
+          </li>
+          <li class="slide">
+            <img id="3" src="./assets/Maeva.jpg" />
+          </li>
+          <li class="slide">
+            <img id="4" src="./assets/rousseJavel.jpg" />
+          </li>
+          <li class="slide">
+            <img id="5" src="./assets/Brune.jpg" />
+          </li>
+          <li class="slide">
+            <img id="6" src="./assets/EncoreRousse.jpg" />
+          </li>
+        </ul>
+
+        <div class="nextCircle">
+          <i id="next" class="fa fa-arrow-right next" aria-hidden="true"></i>
+        </div>
+        <div class="prevCircle">
+          <i id="prev" class="fa fa-arrow-left previous" aria-hidden="true"></i>
+        </div>
+      </div>
+      <!-- End Slider -->
+
+      <!-- Div cacher par default,le fonction onclick cherche data dans fichier .json comme un api -->
+
+      <section id="main-menu">
+        <ul>
+          <li>
+            <div id="part1" class="images">
+              <div class="bw"></div>
+              <div class="color"></div>
+            </div>
+
+            <div class="description">
+              <h2 class="idGirl"></h2>
+              <h3 class="descGirl"></h3>
+              <p class="girlChar"></p>
+              <p class="details"></p>
+              <p class="info"></p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!--  end cacher  -->
+    </div>
+
+    <!-- Mes boutons  -->
+    <section id="buttons-menu">
+      <ul>
+        <li id="labrune" class="button">La Brune<br />Refoulée</li>
+        <li id="lablonde" class="button">C'était<br />Une femme?</li>
+        <li id="laRousse" class="button">La Rousse<br />Javellisée</li>
+        <li id="laRolls" class="button">La Rolls<br />des Connes !!!</li>
+        <li id="Red" class="button">Encore une Rousse<br />Javellisée !!!</li>
+      </ul>
+    </section>
+
+    <!-- Fin buttons -->
+
+    <!-- source pour jquery library et fonctons -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./javascript/buttons.js"></script>
+    <script src="./javascript/slider.js"></script>
+  </body>
+</html>

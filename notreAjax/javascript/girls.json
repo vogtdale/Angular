@@ -1,0 +1,45 @@
+{
+    "girls": [
+      {
+        "id": "La Brune Refoulée",
+        "description": "Ses meilleurs répliques",
+        "charactere": "Je t'aime mais pas aujourd'hui",
+        "details": "Tu embrasses comme mon père",
+        "info": "Tu es différent de mon ex",
+        "image": "./assets/Brune.jpg"
+      },
+      {
+        "id": "C'était Une femme?",
+        "description": "Ses meilleurs répliques",
+        "charactere": "J'ai une voix plus grave que toi",
+        "details": "Je suis plus grande que toi",
+        "info": "Je n'ai jamais eu mes régles",
+        "image": "./assets/UneFemme.jpg"
+      },
+      {
+        "id": "La Rousse Javellisée",
+        "description": "Ses meilleurs répliques",
+        "charactere": "Je suis gentille moi !",
+        "details": "Je ne suis pas chiante !",
+        "info": "Bla Bla Bla chaussures !",
+        "image": "./assets/rousseJavel.jpg"
+      },
+      {
+        "id": "La Rolls des Connes !!!",
+        "description": "Ses meilleurs répliques",
+        "charactere": "Je cherche une relation sérieuse !",
+        "details": "(5min après) ... 1 mec",
+        "info": "(15min après) ... 1 autre!",
+        "image": "./assets/LaRolls.jpg"
+      },
+      {
+        "id": "Encore une Rousse Javellisée",
+        "description": "Ses meilleurs répliques",
+        "charactere": "On est ensemble ?",
+        "details": "On est toujours ensemble ?",
+        "info": "C'est pas toi, c'est moi !",
+        "image": "./assets/EncoreRousse.jpg"
+      }
+    ]
+  }
+  
